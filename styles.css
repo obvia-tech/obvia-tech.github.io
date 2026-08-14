@@ -9,7 +9,7 @@
   --border: #e4e7ec;
   --radius: 12px;
   --shadow: 0 10px 30px rgba(16, 24, 40, 0.08);
-  --font: 'Inter', system-ui, -apple-system, sans-serif;
+  --font: 'Open Sans', system-ui, -apple-system, sans-serif;
 }
 
 * {
@@ -64,24 +64,15 @@ img {
 .logo {
   display: flex;
   align-items: center;
-  gap: 10px;
-  font-weight: 800;
-  font-size: 1.25rem;
 }
 
-.logo-mark {
-  display: grid;
-  place-items: center;
-  width: 38px;
-  height: 38px;
-  border-radius: 10px;
-  background: linear-gradient(135deg, var(--primary), var(--accent));
-  color: #fff;
-  font-weight: 800;
+.logo img {
+  height: 40px;
+  width: auto;
 }
 
-.accent {
-  color: var(--primary);
+.logo-footer img {
+  height: 34px;
 }
 
 .nav-links {
